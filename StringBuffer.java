@@ -1,3 +1,11 @@
+/******************************************************************************
+
+                            Online Java Compiler.
+                Code, Compile, Run and Debug java program online.
+Write your code in this editor and press "Run" button to execute it.
+
+*******************************************************************************/
+
 public class Main
 {
 	public static void main(String[] args) {
@@ -14,5 +22,14 @@ public class Main
 	    System.out.println(sb);
 	    str=str.toUpperCase();
 	    System.out.println(str);
+	    String str2="I am studying";
+	    StringBuffer sb2=new StringBuffer(str2);
+	    System.out.println(sb2.reverse());
+	    String i="Hello";
+	    String j="Hello";
+	    if(i.equals(j))
+	    {
+	        System.out.println("Equal");
+	    }
 	}
 }
